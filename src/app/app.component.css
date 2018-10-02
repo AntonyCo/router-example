@@ -1,0 +1,6 @@
+.nav__menu{
+    margin:10px;
+}
+.nav__item_selected{
+    color:red;
+}

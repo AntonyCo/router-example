@@ -1,0 +1,12 @@
+<p>
+  detail works!
+</p>
+<button
+  (click) = 'handleClickGoToHome()'
+>GOTO: HOME</button>
+<a href=""
+  [routerLink]="['/detail', 2]"
+  routerLinkActive="nav__item_selected">Detail with id=2</a>
+
+  <router-outlet></router-outlet>
+  
